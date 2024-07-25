@@ -1,34 +1,18 @@
 {
     "name": "Integer Toolkit",
-    "description":"The Integer Toolkit will include functions for basic arithmetic operations (addition, subtraction, multiplication, division), and display the results for the user",
-    "contributors": [{
-        "name": "Priyanka Kadam",
-        "githubId": "https://github.com/Priyanka-Kadam427"
-    }, {
-        "name": "Yathang Tupe",
-<<<<<<< Updated upstream
-        "githubId": ""
-    },
-    {
-        "name": "Tasnim Rafee",
-        "githubId": ""
-    },
-    {
-        "name": "",
-        "githubId": ""
-    },
-    {
-        "name": "",
-        "githubId": ""
-    }]
-=======
-        "githubId": "https://github.com/Yathang007"
-    },
-    {
-        "name": "Tasnim Rafee",
-        "githubId": "https://github.com/Rafee104104"
-    }
-    
+    "description": "The Integer Toolkit is a Svelte application that performs arithmetic operations, calculates factorials, and provides absolute values for integers. It also rounds results, sorts digits, and converts results into palindromes. Users can customize the display with different font styles.",
+    "contributors": [
+        {
+            "name": "Priyanka Kadam",
+            "githubId": "https://github.com/Priyanka-Kadam427"
+        },
+        {
+            "name": "Yathang Tupe",
+            "githubId": "https://github.com/Yathang007"
+        },
+        {
+            "name": "Tasnim Rafee",
+            "githubId": "https://github.com/Rafee104104"
+        }
     ]
->>>>>>> Stashed changes
 }
