@@ -6,7 +6,7 @@
 	let num1 = 0;
 	let num2 = 0;
 	let result = 0;
-	let roundedResult = 0; // New variable for rounded result
+	let roundedResult = 0; 
 	let selectedFontStyle = 'normal';
 	let sortedDigitsNum1 = '';
 	let sortedDigitsNum2 = '';
@@ -75,9 +75,9 @@
 	// Function to round the result to the nearest integer
 	function roundResult() {
 	  if (Number.isInteger(result)) {
-		roundedResult = result; // If result is an integer, no need to round
+		roundedResult = result; 
 	  } else {
-		roundedResult = Math.round(result); // Round to the nearest integer
+		roundedResult = Math.round(result); 
 	  }
 	}
   
@@ -98,8 +98,8 @@
 	// Function to convert result to palindrome
 	function convertToPalindrome() {
 	  const originalString = String(result); // Convert result to string
-	  const reversedString = originalString.split('').reverse().join(''); // Reverse the string
-	  palindromeNum1 = Number(originalString + reversedString); // Concatenate and convert back to number
+	  const reversedString = originalString.split('').reverse().join('');
+	  palindromeNum1 = Number(originalString + reversedString); 
 	}
   
 	// Function to apply fancy font styles
